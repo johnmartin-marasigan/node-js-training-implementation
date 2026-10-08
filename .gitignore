@@ -1,0 +1,20 @@
+# Dependencies
+node_modules/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Local databases
+*.db
+
+# Generated Prisma client
+generated/prisma/
+src/generated/prisma/
+
+# Build outputs
+dist/
+
+# Test coverage
+coverage/
